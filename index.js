@@ -50,7 +50,7 @@
   };
   const ground = Bodies.rectangle(400, 1220, 810, 1000, {
     isStatic: true,
-    render: { fillStyle: "#FF8A80" },
+    render: { fillStyle: "transparent" },
   });
   const wallLeft = Bodies.rectangle(-50, 500, 100, 1000, {
     isStatic: true,
@@ -244,7 +244,7 @@
 
   Events.on(render, "afterRender", () => {
     if (isGameOver) {
-      ctx.fillStyle = "#ff8a80";
+      ctx.fillStyle = "#fff";
       ctx.rect(0, 0, 480, 720);
       ctx.fill();
 
