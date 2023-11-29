@@ -41,7 +41,7 @@
 
   const background = Bodies.rectangle(240, 360, 480, 720, {
     isStatic: true,
-    render: { fillStyle: "#ff8a80" },
+    render: { fillStyle: "#e0ffe4" },
   });
   background.collisionFilter = {
     group: 0,
@@ -244,7 +244,7 @@
 
   Events.on(render, "afterRender", () => {
     if (isGameOver) {
-      ctx.fillStyle = "#ffffff55";
+      ctx.fillStyle = "#ff8a80";
       ctx.rect(0, 0, 480, 720);
       ctx.fill();
 
