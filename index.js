@@ -50,7 +50,7 @@
   };
   const ground = Bodies.rectangle(400, 1220, 810, 1000, {
     isStatic: true,
-    render: { fillStyle: "transparent" },
+    render: { fillStyle: "#FF8A80" },
   });
   const wallLeft = Bodies.rectangle(-50, 500, 100, 1000, {
     isStatic: true,
