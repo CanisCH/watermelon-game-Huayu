@@ -1,15 +1,14 @@
-# 수박게임
+# This is a fork from:
 
 ## https://watermelon.shinyou.ng
+## https://github.com/choshinyoung/watermelon
 
-간단하고, 빠르고, 쉬운 커스텀이 가능한 수박게임입니다.
+made for Huayu fans.
 
-[원본 게임](https://github.com/liyupi/daxigua)
+Credits: https://github.com/liyupi/daxigua
 
-## 사용한 것들
+Resources used:
 
 - [matter.js](https://github.com/liabru/matter-js/)
 - [Cropper.js](https://github.com/fengyuanchen/cropperjs)
 - [Pretendard](https://github.com/orioncactus/pretendard)
-
-* 과일 그림 by choyoonha1217@gmail.com
