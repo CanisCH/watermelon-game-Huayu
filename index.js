@@ -244,7 +244,7 @@
 
   Events.on(render, "afterRender", () => {
     if (isGameOver) {
-      ctx.fillStyle = "#fff";
+      ctx.fillStyle = "#ffffff55";
       ctx.rect(0, 0, 480, 720);
       ctx.fill();
 
